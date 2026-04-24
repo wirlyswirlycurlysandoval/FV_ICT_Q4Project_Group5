@@ -7,12 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-image: url('https://img.freepik.com/free-vector/abstract-modern-dark-black-background-design-with-stripes-lines_84443-2828.jpg?semt=ais_hybrid&w=740&q=80');
+      background-image: url('https://i.pinimg.com/736x/8e/8c/78/8e8c78523e0b4d01fa896480aa9d04c9.jpg');
       background-size: cover;
+      background-repeat: no-repeat;
     }
 
-    .gir {
-      background-color: black;
+    .sidee {
+      background-color: rgb(251, 251, 251);
       height: 100vh;
       width: 300px;
     }
@@ -22,7 +23,8 @@
       width: 200px;
     }
 
-    .pythus {
+    .title {
+        color: rgb(12, 36, 111);
       background-color: lightgray;
       height: 75px;
       width: 225px;
@@ -30,13 +32,17 @@
       margin-top: 20px;
     }
 
-    .titus {
-      background-color: black;
+    .container{
+        color:  rgb(12, 36, 111);
+    }
+
+    #foot {
+      background-color: rgb(12, 36, 111);
       width: 100%;
     }
 
-    .welcome-box {
-      background-color: lavender;
+    .opening-text {
+      background-color: lightgray;
       min-height: 400px;
     }
   </style>
@@ -45,9 +51,9 @@
   <div class="container-fluid">
     <div class="row">
       <!-- Sidebar -->
-      <div class="col-md-3 gir text-light p-3">
-        <h1 class="pythus p-2 rounded-5 text-black text-center">PE</h1>
-        <img src="https://i.pinimg.com/736x/65/b4/ad/65b4ad928830ec0ed3e24c0403213bf4.jpg" alt="swiftylogo" class="rounded-circle logo">
+      <div class="col-md-3 sidee text-light p-3">
+        <h1 class="title p-2 rounded-5 text-center">PE</h1>
+        <img src="https://cdn.discordapp.com/attachments/1490869801055162588/1495939927228022824/ICT_logo_1.png?ex=69eb5ddf&is=69ea0c5f&hm=2afbefa4da475c8736bac5999b4eba308d0e9e5537391a04a79bde5016317ad8" alt="jadnacademy" class="sqaure-circle logo">
         <br>
         <div class="container"><a class="nav-link" href="dashboard.html">Dashboard</a></div>
         <div class="container"><a class="nav-link" href="notebooks.html">Virtual Notebooks</a></div>
@@ -58,8 +64,8 @@
 
      
       <div class="col-md-9 mt-5">
-        <div class="welcome-box p-4 rounded-5 text-black text-center">
-          <h2 class="text-dark">PE!</h2>
+        <div class="opening-text p-4 rounded-5 text-white text-center">
+          <h2 class="text">PE!</h2>
           <br>
           <h5>
          Physical Education (PE) is a subject that focuses on health, fitness, and the importance of an active lifestyle. It teaches students how exercise strengthens the body, improves coordination, and builds endurance. In Grade 9, PE often includes activities such as sports, dance, and fitness training, which encourage teamwork and discipline.
@@ -71,7 +77,7 @@
         </div>
 
         <br><br>
-        <footer class="titus text-light text-center">© 4th Quarter Project | Made by Nathan, Aaliyah, Dani, Jilliane</footer>
+        <footer class="text-light text-center" id="foot">© 4th Quarter Project | Made by Nathan, Aaliyah, Dani, Jilliane</footer>
       </div>
     </div>
   </div>
